@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		paket.lock = paket.lock
 	EndProjectSection
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Paket.PackageFile", "Paket.PackageFile\Paket.PackageFile.fsproj", "{7C4814A5-339F-42E1-82B5-B078303E0DA8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Paket.PackageFile.Test", "Paket.PackageFile.Test\Paket.PackageFile.Test.fsproj", "{4A47E69B-9B9C-40F2-B03D-05BFF8D87A16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{FE0EA165-C5A7-405B-85E9-AF8C5EC2FA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE0EA165-C5A7-405B-85E9-AF8C5EC2FA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE0EA165-C5A7-405B-85E9-AF8C5EC2FA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4814A5-339F-42E1-82B5-B078303E0DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4814A5-339F-42E1-82B5-B078303E0DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4814A5-339F-42E1-82B5-B078303E0DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4814A5-339F-42E1-82B5-B078303E0DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A47E69B-9B9C-40F2-B03D-05BFF8D87A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A47E69B-9B9C-40F2-B03D-05BFF8D87A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A47E69B-9B9C-40F2-B03D-05BFF8D87A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A47E69B-9B9C-40F2-B03D-05BFF8D87A16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
